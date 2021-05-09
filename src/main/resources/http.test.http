@@ -1,0 +1,8 @@
+POST http://192.168.1.34:8808/cart/1/item
+Content-Type: application/json
+
+{
+  "productId": "test-product-1",
+  "quantity": "10",
+  "totalItemPrice": "20"
+}
